@@ -165,7 +165,7 @@
   
   @media (max-width: 767px) {
     .body {
-      font-family: Montserrat;
+      font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
       font-size: 18px;
       font-style: normal;
       font-weight: 400;
@@ -238,11 +238,10 @@
           -ms-transform: scaleY(0);
               transform: scaleY(0);
       position: absolute;
-      width: 50px;
+      width: 48px;
       height: auto;
-      top: 10px;
+      top: 0;
       right: 30px;
-      display: none;
       z-index: 100;
     }
   
@@ -269,6 +268,12 @@
       color: #000000;
       background-color: #d3d0cb;
       font-size: 20px;
+    }
+
+    .menu_phone__link:hover {
+      -webkit-transform: scale(1.2);
+          -ms-transform: scale(1.2);
+              transform: scale(1.2);
     }
   
     .navigation_menu__list {
@@ -522,7 +527,7 @@
   }
   @media (min-width: 768px) {
     .body {
-      font-family: Montserrat;
+      font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
       font-size: 18px;
       font-style: normal;
       font-weight: 400;
@@ -883,7 +888,7 @@
   }
   @media (min-width: 992px) {
     .body {
-      font-family: Montserrat;
+      font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
       font-size: 18px;
       font-style: normal;
       font-weight: 400;
